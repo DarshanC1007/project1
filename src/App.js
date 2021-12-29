@@ -7,12 +7,12 @@ import {
 import {HomePage} from "./pages/HomePage";
 import {AboutUs} from "./pages/AboutUs";
 
-import {NavBar} from "./components/NavBar"
+// import {NavBar} from "./components/NavBar"
 
 function App() {
   return (
     <BrowserRouter>
-    <NavBar />
+    {/* <NavBar /> */}
       <Routes>
         <Route exact path="/" element={<HomePage/>}/>     
         <Route exact path="/aboutus" element={<AboutUs />} />    

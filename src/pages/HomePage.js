@@ -1,12 +1,14 @@
-import React from 'react'
+import React from "react";
 
-// import {NavBar} from "../components/NavBar"
+
+import { NavBar } from "../components/NavBar";
+import {Login} from "../components/Login"
 
 export const HomePage = () => {
-    return (
-        <div>
-            {/* <NavBar /> */}
-            <p>I am HomePage</p>
-        </div>
-    )
-}
+  return (
+    <div>
+      <NavBar />
+     <Login />      
+    </div>
+  );
+};
