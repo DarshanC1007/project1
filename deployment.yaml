@@ -14,7 +14,7 @@ spec:
     spec:
      containers:
      - name: react-docker-k8s
-       image: dash1007/reactimage
+       image: dash1007/reactimage:v13
        ports:
        - containerPort: 8080
 ---
