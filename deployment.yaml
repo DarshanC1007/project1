@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: react-docker-k8s
-  replicas: 3
+  replicas: 2
   template:
     metadata:
       labels:
